@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './components/header/header.component';
+import { FormsComponent } from './components/forms/forms.component';
 
 @Component({
   selector: 'app-root',
@@ -9,7 +10,8 @@ import { HeaderComponent } from './components/header/header.component';
   imports: [
     CommonModule,
     RouterOutlet,
-    HeaderComponent
+    HeaderComponent,
+    FormsComponent
   ],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
