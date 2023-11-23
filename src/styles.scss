@@ -3,6 +3,7 @@
   --light-grey: #808080;
   --light-text: #EFEFEF;
   --medium-text: #939393;
+  --card-background: #F5F5F5;
   --yellow: #FFB612;
   --red: #dc0a17;
   --green: #2FC022;
@@ -18,6 +19,7 @@
 body {
   height: 100%;
   width: 100%;
+  overflow-x: hidden;
 }
 
 @font-face {
