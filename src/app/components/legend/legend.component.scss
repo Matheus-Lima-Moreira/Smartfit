@@ -1,0 +1,52 @@
+.legend {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--card-background);
+  max-width: 80%;
+  width: 100%;
+  margin: 0 auto;
+  padding: 24px 12px;
+  gap: 24px;
+}
+
+.legend .legend-item {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.legend .legend-item h4 {
+  text-align: center;
+}
+
+.legend .legend-item .legend-images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.legend .legend-item .legend-images img {
+  width: 3.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.legend .legend-item .legend-images .legend-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.legend .legend-item .legend-images .legend-image p {
+  color: var(--text-color);
+  font-size: 1rem;
+}
+
+@media (min-width: 1110px) {
+  .legend {
+    flex-direction: row;
+  }
+}
