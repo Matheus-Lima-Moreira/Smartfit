@@ -6,10 +6,10 @@
     {{card.street}}, {{card.region}}, {{card.state_name}} - {{card.uf}}
   </p>
   <div class="status" *ngIf="card.mask || card.towel || card.fountain || card.locker_room">
-    <img *ngIf="card.mask" [src]="'/assets/images/png/' + card.mask + '-mask.png'" />
-    <img *ngIf="card.towel" [src]="'/assets/images/png/' + card.towel + '-towel.png'" />
-    <img *ngIf="card.fountain" [src]="'/assets/images/png/' + card.fountain + '-fountain.png'" />
-    <img *ngIf="card.locker_room" [src]="'/assets/images/png/' + card.locker_room + '-lockerroom.png'" />
+    <img *ngIf="card.mask" [src]="'./assets/images/png/' + card.mask + '-mask.png'" />
+    <img *ngIf="card.towel" [src]="'./assets/images/png/' + card.towel + '-towel.png'" />
+    <img *ngIf="card.fountain" [src]="'./assets/images/png/' + card.fountain + '-fountain.png'" />
+    <img *ngIf="card.locker_room" [src]="'./assets/images/png/' + card.locker_room + '-lockerroom.png'" />
   </div>
   <ul>
     <li *ngFor="let schedule of card.schedules">
